@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050505">
+<title>The Virtual Post // Idea Terminal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="kicker">TVP editorial system</div>
+      <h1>THE VIRTUAL POST</h1>
+      <div class="signal">● SYSTEM ONLINE <span class="blink">_</span></div>
+    </div>
+    <div class="navTitle">Idea library</div>
+    <nav class="nav" id="categoryNav"></nav>
+    <div class="navTitle">Automations</div>
+    <nav class="nav">
+      <button id="feedNav" onclick="currentView='feed';render()"><span>TASK FEED</span><span class="count">LIVE</span></button>
+    </nav>
+    <div class="sidebarBottom">
+      <div class="tiny">storage / browser local</div>
+      <button onclick="exportData()">[ EXPORT DATABASE ]</button>
+      <button onclick="document.getElementById('importFile').click()">[ IMPORT DATABASE ]</button>
+      <input id="importFile" type="file" accept=".json" hidden onchange="importData(event)">
+      <button onclick="resetLocal()">[ RESTORE TASK FEED ]</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <div class="path">TVP://IDEAS/<strong id="pathLabel">ALL</strong></div>
+      <div class="topActions">
+        <button class="btn green" onclick="openTasks()">OPEN SCHEDULED TASKS ↗</button>
+        <button class="btn" onclick="copySyncPrompt()">COPY SYNC PROMPT</button>
+        <button class="btn primary" onclick="openAdd()">+ NEW IDEA</button>
+      </div>
+    </div>
+    <div class="mobileNav" id="mobileNav"></div>
+
+    <div class="content">
+      <section id="ideasView">
+        <div class="hero">
+          <div class="heroMain">
+            <div class="eyebrow">[ EDITORIAL CONTROL TERMINAL ]</div>
+            <h2>FIND THE NEXT VIDEO.<br>THEN SHIP IT.</h2>
+            <p>A working database for ideas, research and script structure. The task feed supplies opportunities; local edits let you turn them into actual videos without losing the original research trail.</p>
+            <div class="heroStats">
+              <div class="stat"><strong id="statIdeas">0</strong><span>Total ideas</span></div>
+              <div class="stat"><strong id="statDeveloping">0</strong><span>Developing</span></div>
+              <div class="stat"><strong id="statResearch">0</strong><span>Research</span></div>
+              <div class="stat"><strong id="statReady">0</strong><span>Scripted / ready</span></div>
+            </div>
+          </div>
+          <div class="terminal">
+            <div class="white">TVP_BOOT_SEQUENCE v0.1</div>
+            <div class="dim">--------------------------------</div>
+            <div>> drive_library ........ <span class="green">MOUNTED</span></div>
+            <div>> trend_brief .......... <span class="green">LINKED</span></div>
+            <div>> watch_radar .......... <span class="green">LINKED</span></div>
+            <div>> script_workspace ..... <span class="green">READY</span></div>
+            <br>
+            <div>LAST FEED SYNC: <span class="white" id="syncTime"></span></div>
+            <div>MODE: <span class="green">MAKE SOMETHING WORTH CLICKING</span></div>
+            <div class="blink">█</div>
+          </div>
+        </div>
+
+        <div class="filters">
+          <input class="search" id="search" placeholder="SEARCH TITLES / TAGS / ANGLES...">
+          <button class="filterBtn active" data-status="All">ALL</button>
+          <button class="filterBtn" data-status="Research">RESEARCH</button>
+          <button class="filterBtn" data-status="Draft">DRAFT</button>
+          <button class="filterBtn" data-status="Scripted">SCRIPTED</button>
+          <button class="filterBtn" data-status="Ready">READY</button>
+        </div>
+
+        <div class="sectionLabel"><h3>Editorial queue</h3><span id="resultsCount">0 records</span></div>
+        <div class="grid" id="ideaGrid"></div>
+      </section>
+
+      <section class="feedPanel" id="feedView">
+        <div class="heroMain" style="margin-bottom:12px">
+          <div class="eyebrow">[ AUTOMATION LINK ]</div>
+          <h2>TASK FEED</h2>
+          <p>This is the bridge between ChatGPT research and the planner database. The main daily brief is the editorial updater; the 3× daily radar is the research inbox.</p>
+        </div>
+        <div class="feedList">
+          <div class="feedBox">
+            <div class="tiny">Primary updater</div>
+            <h4 id="feedName">Virtual Post Trend Brief</h4>
+            <p>Daily opportunity scan. Its output should add or revise strong video concepts in <code>data.js</code>, including an angle, hook, thesis and practical outline.</p>
+            <button class="btn green" onclick="openTasks()">OPEN TASK ↗</button>
+          </div>
+          <div class="feedBox">
+            <div class="tiny">Research inbox</div>
+            <h4 id="watchName">Virtual Post Watch Radar</h4>
+            <p>Runs several times per day to surface events, creator videos and industry developments worth watching before they become full video ideas.</p>
+            <button class="btn green" onclick="openTasks()">OPEN TASK ↗</button>
+          </div>
+          <div class="feedBox">
+            <div class="tiny">Data endpoint</div>
+            <h4>GITHUB DATA FILE</h4>
+            <p>The site is intentionally static. That makes the update target simple: replace one small JavaScript data file and the website changes on refresh.</p>
+            <div class="codebox" id="repoPath"></div>
+          </div>
+          <div class="feedBox">
+            <div class="tiny">Fallback workflow</div>
+            <h4>COPY SYNC INSTRUCTION</h4>
+            <p>If a scheduled run cannot write to GitHub, it can still return a structured idea payload. Copy the sync instruction and use it in the task or a normal chat.</p>
+            <button class="btn" onclick="copySyncPrompt()">COPY SYNC PROMPT</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<div class="overlay" id="drawerOverlay">
+  <aside class="drawer">
+    <div class="drawerHead">
+      <span class="tiny">EDIT IDEA / SCRIPT FILE</span>
+      <button class="btn" onclick="closeDrawer()">CLOSE [X]</button>
+    </div>
+    <div class="drawerBody">
+      <div class="fieldLabel">Video title</div>
+      <input id="editTitle" class="editTitle">
+      <div class="row2">
+        <div><div class="fieldLabel">Category</div><input id="editCategory" class="control"></div>
+        <div><div class="fieldLabel">Status</div><select id="editStatus" class="control"><option>Inbox</option><option>Observing</option><option>Research</option><option>Draft</option><option>Developing</option><option>Scripted</option><option>Ready</option><option>Published</option><option>Archived</option></select></div>
+      </div>
+      <div class="row2">
+        <div><div class="fieldLabel">Priority</div><select id="editPriority" class="control"><option>HIGH</option><option>MED</option><option>LOW</option></select></div>
+        <div><div class="fieldLabel">Editorial score / 100</div><input id="editScore" type="number" min="0" max="100" class="control"></div>
+      </div>
+      <div class="fieldLabel">Angle</div><textarea id="editAngle" class="control"></textarea>
+      <div class="fieldLabel">Opening hook</div><textarea id="editHook" class="control"></textarea>
+      <div class="fieldLabel">Thesis / what the video proves</div><textarea id="editThesis" class="control"></textarea>
+
+      <div class="sectionLabel"><h3>Script outline</h3><button class="btn" onclick="addBeat()">+ ADD BEAT</button></div>
+      <div class="outlineList" id="outlineList"></div>
+
+      <div style="margin-top:16px" class="fieldLabel">Notes / research direction</div>
+      <textarea id="editNotes" class="control"></textarea>
+
+      <div class="drawerActions">
+        <button class="btn primary" onclick="saveDrawer()">SAVE LOCAL CHANGES</button>
+        <button class="btn" onclick="copyOutline()">COPY OUTLINE</button>
+        <button class="btn" id="sourceLink">OPEN DRIVE SOURCE ↗</button>
+        <button class="btn" onclick="deleteIdea()">ARCHIVE / REMOVE</button>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<div class="modal" id="addModal">
+  <div class="modalBox">
+    <div class="tiny">new record</div>
+    <h3>ADD VIDEO IDEA</h3>
+    <div class="formGrid">
+      <div class="full"><div class="fieldLabel">Title</div><input class="control" id="newTitle"></div>
+      <div><div class="fieldLabel">Category</div><input class="control" id="newCategory" placeholder="Gaming History"></div>
+      <div><div class="fieldLabel">Status</div><select class="control" id="newStatus"><option>Inbox</option><option>Observing</option><option>Research</option><option>Draft</option><option>Developing</option></select></div>
+      <div><div class="fieldLabel">Priority</div><select class="control" id="newPriority"><option>HIGH</option><option selected>MED</option><option>LOW</option></select></div>
+      <div><div class="fieldLabel">Editorial score</div><input class="control" id="newScore" type="number" value="70" min="0" max="100"></div>
+      <div class="full"><div class="fieldLabel">Angle</div><textarea class="control" id="newAngle"></textarea></div>
+      <div class="full"><div class="fieldLabel">Tags (comma separated)</div><input class="control" id="newTags"></div>
+    </div>
+    <div class="drawerActions">
+      <button class="btn primary" onclick="createIdea()">CREATE FILE</button>
+      <button class="btn" onclick="closeAdd()">CANCEL</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
