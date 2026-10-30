@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-10-29 08:25",
+    "lastSync": "2026-10-30 08:04",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -975,9 +975,9 @@ window.TVP_DATA = {
       "status": "Research",
       "priority": "HIGH",
       "score": 99,
-      "source": "Bungie / The Verge",
-      "sourceUrl": "https://www.bungie.net/7/en/News/Article/nextchapterofbungie",
-      "updated": "2026-09-22",
+      "source": "Bungie official September and October 2026 community updates / The Verge",
+      "sourceUrl": "https://www.bungie.net/7/en/News/Article/bungiecommunityupdate_10_27",
+      "updated": "2026-10-30",
       "tags": [
         "Destiny 2",
         "Bungie",
@@ -988,7 +988,14 @@ window.TVP_DATA = {
         "player trust",
         "Marathon",
         "Xbox",
-        "PC"
+        "PC",
+        "Red War",
+        "Forsaken",
+        "Menagerie",
+        "legacy content",
+        "porting",
+        "2028 timeline",
+        "trust repair"
       ],
       "angle": "Bungie's decision to restore vaulted campaigns, destinations and raids turns preservation from an external demand into a live-service survival strategy: removed content damaged trust, and rebuilding access is now part of rebuilding the studio.",
       "hook": "Bungie spent six years telling players that Destiny's missing history was the price of keeping the game alive. Now it says returning that history is essential to its future.",
@@ -1005,7 +1012,7 @@ window.TVP_DATA = {
         "THE BUSINESS LESSON — Old content can be onboarding, community memory and franchise equity rather than storage overhead.",
         "ENDING — A live service survives not only by adding a future, but by preserving a past players can still enter."
       ],
-      "notes": "Added September 22 after Bungie said it will restore vaulted Destiny 2 campaigns, destinations and raids for all players. Bungie explicitly acknowledged lasting harm to player trust and explained that restoration requires updates to lighting, encounters, combatants and underlying systems changed since Beyond Light. The September 21 announcement also admits Marathon did not reach as many players as hoped and will expand beyond its original genre constraints toward deeper survival and broader PvE/PvP/PvPvE play. The Verge notes that the announcement follows the fan-made Sunrise offline preservation mod; do not claim causation. Current audience momentum is strong: Bungie's five-minute announcement had roughly 891,000 visible views in ViralMint's September 22 snapshot, while Aztecross and My name is Byf responses had about 520,000 and 253,000. Use Destiny 2 on Xbox/PC, official footage, archive timelines and diagrams; no PlayStation access is required."
+      "notes": "Added September 22 after Bungie said it will restore vaulted Destiny 2 campaigns, destinations and raids for all players. Bungie explicitly acknowledged lasting harm to player trust and explained that restoration requires updates to lighting, encounters, combatants and underlying systems changed since Beyond Light. The September 21 announcement also admits Marathon did not reach as many players as hoped and will expand beyond its original genre constraints toward deeper survival and broader PvE/PvP/PvPvE play. The Verge notes that the announcement follows the fan-made Sunrise offline preservation mod; do not claim causation. Current audience momentum is strong: Bungie's five-minute announcement had roughly 891,000 visible views in ViralMint's September 22 snapshot, while Aztecross and My name is Byf responses had about 520,000 and 253,000. Use Destiny 2 on Xbox/PC, official footage, archive timelines and diagrams; no PlayStation access is required. October 30 material update: Bungie’s October community post defines the first restoration pass as the Red War, Curse of Osiris, Warmind and Forsaken campaigns; their Strikes, Raids and Raid Lairs; and Menagerie with reprised rewards. Free-roam destinations, seasonal activities, weapon refreshes and PvP maps are stretch goals, while some seasonal story missions and hubs currently have no restoration path. Bungie says proof-of-work and pre-production should run until roughly January/February 2027, followed by about twelve months of full production with an outside partner. That schedule points toward early 2028 if it holds, but Bungie gave no release date; present 2028 only as an inference. The scope changes the essay from a simple reversal into a study of preservation as expensive product reconstruction and trust repair. Official update: https://www.bungie.net/7/en/News/Article/bungiecommunityupdate_10_27"
     },
     {
       "id": "discord-age-signals",
