@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-10-30 08:04",
+    "lastSync": "2026-10-31 08:06",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -853,9 +853,9 @@ window.TVP_DATA = {
       "status": "Research",
       "priority": "HIGH",
       "score": 99,
-      "source": "Game Developer / PC Gamer / studio statements",
+      "source": "Game Developer / PC Gamer / studio statements / VGC",
       "sourceUrl": "https://www.pcgamer.com/gaming-industry/industry-layoff-watch-supermassive-ninja-theory-the-coalition-and-a-warning-from-warhorse/",
-      "updated": "2026-10-07",
+      "updated": "2026-10-31",
       "tags": [
         "indie studios",
         "publisher funding",
@@ -872,7 +872,14 @@ window.TVP_DATA = {
         "hibernation",
         "Supermassive Games",
         "Directive 8020",
-        "post-launch layoffs"
+        "post-launch layoffs",
+        "Romero Games",
+        "John Romero",
+        "IP ownership",
+        "publisher withdrawal",
+        "Xbox",
+        "small teams",
+        "project salvage"
       ],
       "angle": "Heart Machine, Polyarc, Nerial and Supermassive show how acclaimed studios can remain one financing interruption or one underperforming release away from contraction: a recognizable catalogue and a shipped game do not guarantee continuous payroll.",
       "hook": "Heart Machine did not run out of ideas this week. A publisher canceled one unannounced game—and nearly everyone lost their job.",
@@ -891,7 +898,7 @@ window.TVP_DATA = {
         "WHAT PLAYERS LOSE — Closures erase teams, production knowledge and the possibility of follow-up work even when the games remain purchasable.",
         "ENDING — Many independent studios are not years from failure; they are one canceled project away."
       ],
-      "notes": "Added September 17 after Heart Machine founder Alx Preston said a publisher ended funding for an unannounced project, forcing layoffs of 'nearly everyone' and leaving the studio's survival uncertain. Polyarc confirmed its closure after nearly 12 years on September 14; Game Developer reported earlier financing challenges and almost 30 roles represented in its recruiting tracker: https://www.gamedeveloper.com/business/moss-developer-polyarc-has-shut-down . KO_OP separately confirmed 13 layoffs during the same week. Build a Rocket Boy is reportedly winding down after employee farewell posts and corroboration from Kotaku, but the company had not formally confirmed closure when reported: https://www.gamedeveloper.com/business/report-mindseye-developer-build-a-rocket-boy-seemingly-closing-after-more-layoffs . Keep these mechanisms distinct: Heart Machine and Polyarc support the publisher-funding thesis; Build a Rocket Boy is primarily an overscaling, launch and management case. Do not imply every studio closure has one cause. Confirmed update Sep 30: Build A Rocket Boy Ltd entered administration on September 23. Joint administrators said 49 of 85 employees were retained and 36 were made redundant while they assess a sale or other options and continue trading. This replaces the earlier 'reportedly winding down' status with a formal insolvency process, but it still should not be described as fully closed. Source statement quoted here: https://www.thescottishsun.co.uk/money/16879232/scottish-video-game-firm-collapses-jobs-axed/ . Keep BARB as the contrasting failed-launch/overscaling case, not evidence that publisher cancellation caused every failure. October 5 update: Nerial, the 13-year-old studio behind Reigns, Card Shark and The Crush House, announced on October 2 that it is entering “hibernation mode,” ending active development and laying off its remaining employees. This is a useful third financing-model case because the studio has recognizable IP and a long Devolver relationship, yet the catalogue did not sustain an active team. Do not describe the company as legally dissolved or permanently closed; its founders explicitly framed the move as hibernation. Source: https://www.gamedeveloper.com/business/nerial-to-enter-hibernation-mode-and-lay-off-developers October 7 update: PC Gamer reported that the Supermassive Games consultation announced in August has concluded, with LinkedIn posts indicating more than 70 employees left after Directive 8020. Use this as a distinct post-launch contraction case, not evidence that a publisher canceled Supermassive’s project. The same report says some Coalition employees fear further cuts after Gears of War: E-Day, but no new Coalition layoffs were announced; treat those comments as worker anxiety, not a confirmed future action. Source: https://www.pcgamer.com/gaming-industry/industry-layoff-watch-supermassive-ninja-theory-the-coalition-and-a-warning-from-warhorse/"
+      "notes": "Added September 17 after Heart Machine founder Alx Preston said a publisher ended funding for an unannounced project, forcing layoffs of 'nearly everyone' and leaving the studio's survival uncertain. Polyarc confirmed its closure after nearly 12 years on September 14; Game Developer reported earlier financing challenges and almost 30 roles represented in its recruiting tracker: https://www.gamedeveloper.com/business/moss-developer-polyarc-has-shut-down . KO_OP separately confirmed 13 layoffs during the same week. Build a Rocket Boy is reportedly winding down after employee farewell posts and corroboration from Kotaku, but the company had not formally confirmed closure when reported: https://www.gamedeveloper.com/business/report-mindseye-developer-build-a-rocket-boy-seemingly-closing-after-more-layoffs . Keep these mechanisms distinct: Heart Machine and Polyarc support the publisher-funding thesis; Build a Rocket Boy is primarily an overscaling, launch and management case. Do not imply every studio closure has one cause. Confirmed update Sep 30: Build A Rocket Boy Ltd entered administration on September 23. Joint administrators said 49 of 85 employees were retained and 36 were made redundant while they assess a sale or other options and continue trading. This replaces the earlier 'reportedly winding down' status with a formal insolvency process, but it still should not be described as fully closed. Source statement quoted here: https://www.thescottishsun.co.uk/money/16879232/scottish-video-game-firm-collapses-jobs-axed/ . Keep BARB as the contrasting failed-launch/overscaling case, not evidence that publisher cancellation caused every failure. October 5 update: Nerial, the 13-year-old studio behind Reigns, Card Shark and The Crush House, announced on October 2 that it is entering “hibernation mode,” ending active development and laying off its remaining employees. This is a useful third financing-model case because the studio has recognizable IP and a long Devolver relationship, yet the catalogue did not sustain an active team. Do not describe the company as legally dissolved or permanently closed; its founders explicitly framed the move as hibernation. Source: https://www.gamedeveloper.com/business/nerial-to-enter-hibernation-mode-and-lay-off-developers October 7 update: PC Gamer reported that the Supermassive Games consultation announced in August has concluded, with LinkedIn posts indicating more than 70 employees left after Directive 8020. Use this as a distinct post-launch contraction case, not evidence that a publisher canceled Supermassive’s project. The same report says some Coalition employees fear further cuts after Gears of War: E-Day, but no new Coalition layoffs were announced; treat those comments as worker anxiety, not a confirmed future action. Source: https://www.pcgamer.com/gaming-industry/industry-layoff-watch-supermassive-ninja-theory-the-coalition-and-a-warning-from-warhorse/ October 31 update: John Romero told VGC that after Microsoft withdrew funding, Romero Games fell from 110 staff to five, retained ownership of the game's name, IP, art, code and other assets, redesigned a smaller project around that work, secured a new publisher and rehired ten people. This is a valuable survival counterexample: publisher dependence can still destroy payroll, but retaining the underlying IP and production assets can preserve a path to recovery. Romero's account is first-person testimony from the studio founder, not an independently audited account of the new deal; the publisher is unnamed and the game remains unannounced. Use it as the solution chapter, not proof that every canceled project can be salvaged. Source: https://www.videogameschronicle.com/news/john-romero-confirms-his-axed-xbox-game-has-a-new-publisher-and-hes-rehired-some-staff/"
     },
     {
       "id": "youtube-fair-use-not-decided",
@@ -1733,6 +1740,45 @@ window.TVP_DATA = {
         "ENDING — A museum is better than deletion, but it should not be mistaken for the living thing it remembers."
       ],
       "notes": "Added October 28 after Pokémon announced that UNITE service will end March 23, 2027 at 00:00 UTC. Aeos gem sales, new UNITE Club memberships, and automatic renewals stopped October 27. A November 12 update will add a farewell event and a library that can show certain records and content after closure, but only for users who download the required data before shutdown; the data generally cannot be transferred between devices, support ends with the service, and battles will no longer be playable. This is a live-service lifecycle essay, not a review. Do not imply the library preserves gameplay or that all player data will remain. Production can rely on official footage, the public shutdown notice, archival tournament clips, interface mockups, and original diagrams; no PlayStation hardware or first-hand play claim is required."
+    },
+    {
+      "id": "paid-games-shutdown-ledger",
+      "title": "You Paid for It. The Server Still Owns It.",
+      "category": "Preservation / Digital Ownership",
+      "status": "Research",
+      "priority": "HIGH",
+      "score": 99,
+      "source": "Shelf-Life shutdown ledger",
+      "sourceUrl": "https://gameshelflife.com/data/",
+      "updated": "2026-10-31",
+      "tags": [
+        "game shutdowns",
+        "digital ownership",
+        "live services",
+        "preservation",
+        "server dependency",
+        "paid games",
+        "offline play",
+        "private servers",
+        "consumer rights",
+        "Xbox",
+        "PC",
+        "CC BY 4.0 data"
+      ],
+      "angle": "A new ledger of 151 verified shutdowns finds that 79—52%—were games people paid to access, turning the ownership debate from isolated anecdotes into a measurable infrastructure problem.",
+      "hook": "The shutdown problem is not confined to free mobile games: in a newly completed 151-case ledger, most affected games cost money.",
+      "thesis": "Paying for software does not protect it from server dependence; publishers should be expected to design an exit path—offline functionality, local authentication, data export, or community servers—before a commercial service becomes a cultural dead end.",
+      "outline": [
+        "THE NUMBER — Open on 79 paid games in a 151-shutdown ledger.",
+        "WHAT THE LEDGER COUNTS — Exact official server-off dates, not delistings or rumors.",
+        "THE SAMPLE LIMIT — Recent closures were added first, so this is not the whole industry or a publisher ranking.",
+        "WHAT PAYMENT BUYS — Separate access, ownership, progression, and continued server operation.",
+        "WHAT STILL WORKS — Compare offline play, official offline modes, private servers, and fan revivals.",
+        "THE SUNSET LADDER — Advance notice, final downloads, data export, local authentication, server binaries, and lawful community hosting.",
+        "CASE CONTRASTS — Pokémon UNITE's memory library, Atari VCS's promised local migration, and Bungie's reconstruction of vaulted content.",
+        "ENDING — A game's real ownership model is revealed when the server bill stops."
+      ],
+      "notes": "Added October 31 from Shelf-Life's October 26 data release. The ledger contains 151 verified shutdowns: 140 already offline and 11 announced. Seventy-six were paid up front and three came with a paid game or subscription, for 79 of 151 (52%); 72 were free-to-play. Every entry links to a publisher announcement where available, and Shelf-Life requires two reputable reports when no announcement exists. Important caveat: Shelf-Life describes this as a growing secondary-source sample, not every shutdown in gaming; recent closures were entered first, so do not infer historical trends or publisher rankings from it. A shutdown means official online servers switched off on an exact sourced date; simple delistings are excluded. Charts and ledger-derived figures are reusable under CC BY 4.0 with attribution. Production can use the licensed charts, official shutdown notices, Xbox/PC capture, and original dependency diagrams."
     }
   ]
 };
