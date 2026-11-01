@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-10-31 08:06",
+    "lastSync": "2026-11-01 08:40",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
