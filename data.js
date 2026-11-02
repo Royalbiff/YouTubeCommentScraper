@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-11-01 08:40",
+    "lastSync": "2026-11-02 08:46",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -1748,9 +1748,9 @@ window.TVP_DATA = {
       "status": "Research",
       "priority": "HIGH",
       "score": 99,
-      "source": "Shelf-Life shutdown ledger",
+      "source": "Shelf-Life shutdown ledger / GOG Preservation Program",
       "sourceUrl": "https://gameshelflife.com/data/",
-      "updated": "2026-10-31",
+      "updated": "2026-11-02",
       "tags": [
         "game shutdowns",
         "digital ownership",
@@ -1763,7 +1763,13 @@ window.TVP_DATA = {
         "consumer rights",
         "Xbox",
         "PC",
-        "CC BY 4.0 data"
+        "CC BY 4.0 data",
+        "GOG",
+        "DRM-free",
+        "offline installers",
+        "GOG Preservation Program",
+        "patron funding",
+        "preservation business model"
       ],
       "angle": "A new ledger of 151 verified shutdowns finds that 79—52%—were games people paid to access, turning the ownership debate from isolated anecdotes into a measurable infrastructure problem.",
       "hook": "The shutdown problem is not confined to free mobile games: in a newly completed 151-case ledger, most affected games cost money.",
@@ -1774,11 +1780,12 @@ window.TVP_DATA = {
         "THE SAMPLE LIMIT — Recent closures were added first, so this is not the whole industry or a publisher ranking.",
         "WHAT PAYMENT BUYS — Separate access, ownership, progression, and continued server operation.",
         "WHAT STILL WORKS — Compare offline play, official offline modes, private servers, and fan revivals.",
+        "THE COUNTERMODEL — GOG's offline installers and funded compatibility work show how access can outlive the store.",
         "THE SUNSET LADDER — Advance notice, final downloads, data export, local authentication, server binaries, and lawful community hosting.",
         "CASE CONTRASTS — Pokémon UNITE's memory library, Atari VCS's promised local migration, and Bungie's reconstruction of vaulted content.",
         "ENDING — A game's real ownership model is revealed when the server bill stops."
       ],
-      "notes": "Added October 31 from Shelf-Life's October 26 data release. The ledger contains 151 verified shutdowns: 140 already offline and 11 announced. Seventy-six were paid up front and three came with a paid game or subscription, for 79 of 151 (52%); 72 were free-to-play. Every entry links to a publisher announcement where available, and Shelf-Life requires two reputable reports when no announcement exists. Important caveat: Shelf-Life describes this as a growing secondary-source sample, not every shutdown in gaming; recent closures were entered first, so do not infer historical trends or publisher rankings from it. A shutdown means official online servers switched off on an exact sourced date; simple delistings are excluded. Charts and ledger-derived figures are reusable under CC BY 4.0 with attribution. Production can use the licensed charts, official shutdown notices, Xbox/PC capture, and original dependency diagrams."
+      "notes": "Added October 31 from Shelf-Life's October 26 data release. The ledger contains 151 verified shutdowns: 140 already offline and 11 announced. Seventy-six were paid up front and three came with a paid game or subscription, for 79 of 151 (52%); 72 were free-to-play. Every entry links to a publisher announcement where available, and Shelf-Life requires two reputable reports when no announcement exists. Important caveat: Shelf-Life describes this as a growing secondary-source sample, not every shutdown in gaming; recent closures were entered first, so do not infer historical trends or publisher rankings from it. A shutdown means official online servers switched off on an exact sourced date; simple delistings are excluded. Charts and ledger-derived figures are reusable under CC BY 4.0 with attribution. Production can use the licensed charts, official shutdown notices, Xbox/PC capture, and original dependency diagrams. November 2 update: a GamesRadar interview published October 31 gives the essay a concrete commercial countermodel. GOG says every catalog game includes a standalone offline installer that can be downloaded, backed up and used without its servers; its Preservation Program commits company resources to testing, improving and maintaining selected games on modern systems. GOG staff said preservation is expensive and depends on viable sales and licensing, while the optional $5/month Patrons program has attracted more than 10,000 supporters. GOG's official program page confirms DRM-free distribution, dedicated technical support and ongoing compatibility work; its Patrons page confirms that monthly support funds restoration and maintenance. Treat the 10,000-plus figure as GOG's own reported subscription count, not audited revenue, and do not imply an offline installer solves multiplayer server dependence or tangled third-party licensing. Reporting: https://www.gamesradar.com/games/there-is-no-game-preservation-with-drm-why-gogs-leaders-have-spent-18-years-fighting-for-classic-games/ Official program: https://www.gog.com/en/gog-preservation-program Official Patrons page: https://www.gog.com/en/patrons"
     }
   ]
 };
