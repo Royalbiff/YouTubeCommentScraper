@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-11-03 08:47",
+    "lastSync": "2026-11-04 08:39",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -1151,9 +1151,9 @@ window.TVP_DATA = {
       "status": "Research",
       "priority": "HIGH",
       "score": 100,
-      "source": "Google / Unity / Meta / Roblox SEC filing",
+      "source": "Google / Unity / Meta / Roblox / Itch.io / Valve",
       "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "updated": "2026-11-03",
+      "updated": "2026-11-04",
       "tags": [
         "Google",
         "Unity Spark",
@@ -1172,10 +1172,15 @@ window.TVP_DATA = {
         "SEC filing",
         "AI game abundance",
         "social graph",
-        "distribution moat"
+        "distribution moat",
+        "Itch.io",
+        "Steam review backlog",
+        "storefront saturation",
+        "AI disclosure",
+        "discovery scarcity"
       ],
-      "angle": "Prompt-game platforms have crossed from demos into industrial-scale abundance: Roblox says a limited Build alpha produced more than 70,000 published games, making distribution, discovery and audience ownership—not generation—the strategic prize.",
-      "hook": "Roblox says 500,000 people used its limited prompt-to-game alpha and published more than 70,000 games. The scarce product is no longer game creation; it is attention.",
+      "angle": "Prompt-game platforms have crossed from demos into industrial-scale abundance: Roblox reports more than 70,000 Build games, while Itch.io says daily game-page creation doubled without downloads or purchases doubling and Valve reports longer Steam review queues. The strategic prize is now discovery, trust and audience ownership—not generation alone.",
+      "hook": "Roblox says its limited AI alpha produced 70,000 games. Itch.io says new pages doubled but purchases did not. When making games becomes cheap, finding anything worth playing becomes the expensive part.",
       "thesis": "As AI makes playable content radically more abundant, platform power shifts toward whoever controls discovery, social graphs, monetization and cross-device distribution; Roblox’s scale makes that creator bargain visible before the same pressure reaches the wider PC market.",
       "outline": [
         "TWO ANNOUNCEMENTS — Open with Meta’s prompt-game tools followed one week later by Google Playground and Unity Spark.",
@@ -1183,13 +1188,14 @@ window.TVP_DATA = {
         "THE CLOSED LOOP — Creation, hosting, discovery, play and social identity remain inside the same platform.",
         "THE PLATFORM RACE — Compare Google’s browser gallery, Meta’s Facebook and Instagram distribution, Roblox Build and Unity’s path toward higher-fidelity creation.",
         "THE SCALE TEST — Roblox reports 500,000 Build users, 70,000 published games, 80% AI-tool adoption among its top 100 games and two almost entirely AI-made titles reaching its concurrent-player top 20.",
+        "THE ABUNDANCE TEST — Compare Roblox’s 70,000 Build games with Itch.io’s doubled page creation and Steam’s extended review queue; lower production friction does not create proportional demand.",
         "WHY UNITY MATTERS — Separate Playground’s live experiment from Spark’s promised collaborative, professional-level mechanics and Asset Store connection.",
         "GAMES AS POSTS — Explain what changes when playable experiences become cheap, shareable feed objects.",
         "THE QUALITY AND DISCOVERY PROBLEM — More creation does not guarantee better games or a viable audience; abundance makes curation more powerful.",
         "THE CREATOR BARGAIN — Ask who owns the work, data, monetization and relationship with players when one company controls every layer.",
         "ENDING — AI may not replace studios, but prompt platforms could make small games as abundant—and disposable—as social posts."
       ],
-      "notes": "Materially expanded October 7 while preserving the existing project title. Google launched Playground in the U.S. for users 18+ as a browser platform for creating, playing and sharing games through prompts. Google says games can be private, link-shared or published to a ratings-and-activity-ranked gallery; select genres support multiplayer and leaderboards; access is tiered by Google One membership. Unity separately announced Spark, now in testing with a closed beta planned, positioning it as a collaborative step toward professional-level mechanics, higher-fidelity 3D and the Unity runtime, with artist-made Asset Store content. Meta’s Horizon Create/Studio remain early-access announcements, and Roblox Build is a public-alpha comparison. Do not claim any tool reliably generates polished commercial games, or collapse Google Playground and the not-yet-public Unity Spark beta into one finished product. The strong TVP story is vertical platform control and the new discovery bottleneck, not 'AI replaces developers.' Production can use official demos, browser footage where regionally available and original diagrams; no PlayStation capture is required. Sources: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/ ; https://unity.com/blog/why-we-built-unity-spark ; https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games November 3 update: Roblox's Q3 shareholder exhibit filed with the SEC turns the early prompt-game thesis into a scale-and-distribution story. Roblox says its limited Build alpha reached more than 500,000 users and 70,000 published games; more than 80% of its top 100 games by hours engaged used AI tools in the prior month; daily asset uploads tripled month over month; and two games created almost entirely with AI reached its top 20 by concurrent players. The company explicitly argues that as content becomes abundant, distribution, audience aggregation, monetization, discovery and safety become the scarce advantages. Its Roblox Everywhere plan would let selected creators publish standalone apps off-platform, while the proposed Universal Player aims to import existing PC, console and mobile games into Roblox. These are company-reported internal metrics and forward-looking product ambitions in an investor filing, not independently audited measures of quality, creator earnings or general-market adoption. Do not equate 70,000 published experiences with 70,000 commercially viable games, and do not present Universal Player as shipping now. SEC filing: https://www.sec.gov/Archives/edgar/data/1315098/000162828026068235/ex991-q32026earningsshar.htm Reporting: https://www.pcgamer.com/software/ai/ai-powered-game-development-is-leading-to-an-explosion-of-content-roblox-says-as-it-brags-about-70-000-games-published-on-its-platform-in-the-last-5-months-alone/"
+      "notes": "Materially expanded October 7 while preserving the existing project title. Google launched Playground in the U.S. for users 18+ as a browser platform for creating, playing and sharing games through prompts. Google says games can be private, link-shared or published to a ratings-and-activity-ranked gallery; select genres support multiplayer and leaderboards; access is tiered by Google One membership. Unity separately announced Spark, now in testing with a closed beta planned, positioning it as a collaborative step toward professional-level mechanics, higher-fidelity 3D and the Unity runtime, with artist-made Asset Store content. Meta’s Horizon Create/Studio remain early-access announcements, and Roblox Build is a public-alpha comparison. Do not claim any tool reliably generates polished commercial games, or collapse Google Playground and the not-yet-public Unity Spark beta into one finished product. The strong TVP story is vertical platform control and the new discovery bottleneck, not 'AI replaces developers.' Production can use official demos, browser footage where regionally available and original diagrams; no PlayStation capture is required. Sources: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/ ; https://unity.com/blog/why-we-built-unity-spark ; https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games November 3 update: Roblox's Q3 shareholder exhibit filed with the SEC turns the early prompt-game thesis into a scale-and-distribution story. Roblox says its limited Build alpha reached more than 500,000 users and 70,000 published games; more than 80% of its top 100 games by hours engaged used AI tools in the prior month; daily asset uploads tripled month over month; and two games created almost entirely with AI reached its top 20 by concurrent players. The company explicitly argues that as content becomes abundant, distribution, audience aggregation, monetization, discovery and safety become the scarce advantages. Its Roblox Everywhere plan would let selected creators publish standalone apps off-platform, while the proposed Universal Player aims to import existing PC, console and mobile games into Roblox. These are company-reported internal metrics and forward-looking product ambitions in an investor filing, not independently audited measures of quality, creator earnings or general-market adoption. Do not equate 70,000 published experiences with 70,000 commercially viable games, and do not present Universal Player as shipping now. SEC filing: https://www.sec.gov/Archives/edgar/data/1315098/000162828026068235/ex991-q32026earningsshar.htm Reporting: https://www.pcgamer.com/software/ai/ai-powered-game-development-is-leading-to-an-explosion-of-content-roblox-says-as-it-brags-about-70-000-games-published-on-its-platform-in-the-last-5-months-alone/ November 4 update: the scarcity thesis now has cross-platform evidence. Itch.io told users that daily game-page creation roughly doubled over two months—from around 3,000 to nearly 8,000 on the cited chart—while downloads and purchases did not double. The store implied generative AI was a major cause but did not publish a causal study, so phrase this as Itch.io's interpretation rather than proven attribution. Valve separately says Steam submissions increased significantly and that build reviews are taking up to 12 business days instead of the usual 3–5, largely because of re-reviews for basic functional problems. Valve did not blame AI for the queue; use the delay only as evidence that abundance imposes moderation and quality-control costs. These additions transform the idea from a Roblox feature story into a wider platform-economics essay about supply, discovery, review and trust. Sources: https://www.gamedeveloper.com/pc/number-of-game-pages-doubles-on-itch-io-as-ai-clones-flood-the-store ; https://steamcommunity.com/groups/steamworks/announcements/detail/529863610837507887"
     },
     {
       "id": "studios-buy-back-independence",
@@ -1799,6 +1805,50 @@ window.TVP_DATA = {
         "ENDING — A game's real ownership model is revealed when the server bill stops."
       ],
       "notes": "Added October 31 from Shelf-Life's October 26 data release. The ledger contains 151 verified shutdowns: 140 already offline and 11 announced. Seventy-six were paid up front and three came with a paid game or subscription, for 79 of 151 (52%); 72 were free-to-play. Every entry links to a publisher announcement where available, and Shelf-Life requires two reputable reports when no announcement exists. Important caveat: Shelf-Life describes this as a growing secondary-source sample, not every shutdown in gaming; recent closures were entered first, so do not infer historical trends or publisher rankings from it. A shutdown means official online servers switched off on an exact sourced date; simple delistings are excluded. Charts and ledger-derived figures are reusable under CC BY 4.0 with attribution. Production can use the licensed charts, official shutdown notices, Xbox/PC capture, and original dependency diagrams. November 2 update: a GamesRadar interview published October 31 gives the essay a concrete commercial countermodel. GOG says every catalog game includes a standalone offline installer that can be downloaded, backed up and used without its servers; its Preservation Program commits company resources to testing, improving and maintaining selected games on modern systems. GOG staff said preservation is expensive and depends on viable sales and licensing, while the optional $5/month Patrons program has attracted more than 10,000 supporters. GOG's official program page confirms DRM-free distribution, dedicated technical support and ongoing compatibility work; its Patrons page confirms that monthly support funds restoration and maintenance. Treat the 10,000-plus figure as GOG's own reported subscription count, not audited revenue, and do not imply an offline installer solves multiplayer server dependence or tangled third-party licensing. Reporting: https://www.gamesradar.com/games/there-is-no-game-preservation-with-drm-why-gogs-leaders-have-spent-18-years-fighting-for-classic-games/ Official program: https://www.gog.com/en/gog-preservation-program Official Patrons page: https://www.gog.com/en/patrons"
+    },
+    {
+      "id": "youtube-gaming-living-room-tv",
+      "title": "YouTube Gaming Is Becoming Television",
+      "category": "Creator Economy / Audience Behavior",
+      "status": "Research",
+      "priority": "HIGH",
+      "score": 99,
+      "source": "Alphabet / Nielsen / YouTube",
+      "sourceUrl": "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx",
+      "updated": "2026-11-04",
+      "tags": [
+        "YouTube",
+        "gaming essays",
+        "living room",
+        "smart TV",
+        "long-form",
+        "creator economy",
+        "advertising",
+        "audience behavior",
+        "episodic video",
+        "thumbnails",
+        "chapters",
+        "browse traffic",
+        "Nielsen",
+        "Alphabet earnings",
+        "Xbox",
+        "PC"
+      ],
+      "angle": "Alphabet says living-room viewing generated over one-third of YouTube ad revenue in Q3 2026, while Nielsen measured YouTube at a record 15.8% of US TV time. Gaming essays are no longer competing only inside a phone feed; they are increasingly packaged, watched and monetized like television.",
+      "hook": "More than one out of every three YouTube ad dollars now comes from the living room. The gaming essay is quietly becoming a television format.",
+      "thesis": "YouTube's move onto television screens rewards gaming videos with clear poster-like packaging, finite documentary promises, chapters and repeatable formats; for a small essay channel, the opportunity is not padding videos but designing them for deliberate couch viewing and series-level loyalty.",
+      "outline": [
+        "THE NUMBER — Open with living-room viewing generating over one-third of YouTube ad revenue in Q3 2026.",
+        "THE SCREEN SHIFT — Nielsen measured YouTube at a record 15.8% of US television time in August.",
+        "WHAT TV CHANGES — Compare remote-controlled browsing, shared screens and longer viewing sessions with phone-feed behavior.",
+        "WHY GAMING FITS — Long histories, simulations, challenge stories and cultural essays already support documentary-scale viewing.",
+        "THE FORMAT SIGNAL — Use recent multi-hour Minecraft events and outlier gaming documentaries as examples, not proof of device-level causation.",
+        "THE POSTER TEST — One subject, strong contrast and at most a few readable words replace collage-heavy thumbnails.",
+        "THE EPISODE TEST — Chapters, spoken key points, recurring segments and playlists help couch viewers commit and continue.",
+        "THE MONEY — Separate Alphabet's platform ad-revenue mix from private creator RPM and sponsorship income.",
+        "ENDING — The winning long-form gaming channel may look less like a feed and more like a small television network."
+      ],
+      "notes": "Added November 4 from primary Alphabet, Nielsen and YouTube evidence. Alphabet's October 28 Q3 earnings call says living-room viewing accounted for over one-third of total YouTube advertising revenue; YouTube ad revenue was $11.2 billion, up 9% year over year. This is platform ad-revenue mix, not the share of any individual creator's revenue or an RPM estimate. Nielsen's October 22 Gauge report says YouTube reached a record 15.8% of US television usage in August 2026, with monthly viewing up 6%; that measures television sets in the US, not all global YouTube viewing. YouTube says more than half of its top 100 creators now have TV as their most-watched interface, TV sessions are longer than on other devices, and creators should use clean high-resolution thumbnails and episodic formats. A November 3 OutlierKit sample found 64 of 78 listed outlier videos across selected searches exceeded 20 minutes, but the searches were length-biased and the index had no device data; use it only as a tentative format signal. Production can rely on public reports, interface mockups, PC/Xbox footage and original diagrams. Sources: https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx ; https://www.nielsen.com/news-center/2026/tv-viewing-cools-off-in-nielsens-august-gauge-reports-as-sports-take-a-breather-and-school-resumes/ ; https://blog.youtube/news-and-events/made-on-youtube-creators-shorts-series-tv-features/ ; https://blog.youtube/creator-and-artist-stories/tv-tips/ ; https://outlierkit.com/resources/youtube-tv-viewers-creator-strategy/"
     }
   ]
 };
