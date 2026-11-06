@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-11-05 08:26",
+    "lastSync": "2026-11-06 08:06",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -1859,6 +1859,49 @@ window.TVP_DATA = {
         "ENDING — The winning long-form gaming channel may look less like a feed and more like a small television network."
       ],
       "notes": "Added November 4 from primary Alphabet, Nielsen and YouTube evidence. Alphabet's October 28 Q3 earnings call says living-room viewing accounted for over one-third of total YouTube advertising revenue; YouTube ad revenue was $11.2 billion, up 9% year over year. This is platform ad-revenue mix, not the share of any individual creator's revenue or an RPM estimate. Nielsen's October 22 Gauge report says YouTube reached a record 15.8% of US television usage in August 2026, with monthly viewing up 6%; that measures television sets in the US, not all global YouTube viewing. YouTube says more than half of its top 100 creators now have TV as their most-watched interface, TV sessions are longer than on other devices, and creators should use clean high-resolution thumbnails and episodic formats. A November 3 OutlierKit sample found 64 of 78 listed outlier videos across selected searches exceeded 20 minutes, but the searches were length-biased and the index had no device data; use it only as a tentative format signal. Production can rely on public reports, interface mockups, PC/Xbox footage and original diagrams. Sources: https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx ; https://www.nielsen.com/news-center/2026/tv-viewing-cools-off-in-nielsens-august-gauge-reports-as-sports-take-a-breather-and-school-resumes/ ; https://blog.youtube/news-and-events/made-on-youtube-creators-shorts-series-tv-features/ ; https://blog.youtube/creator-and-artist-stories/tv-tips/ ; https://outlierkit.com/resources/youtube-tv-viewers-creator-strategy/"
+    },
+    {
+      "id": "unity-ea-same-investors",
+      "title": "The Same Investors May Own EA and Unity",
+      "category": "Industry / Platform Consolidation",
+      "status": "Research",
+      "priority": "HIGH",
+      "score": 100,
+      "source": "Reuters / Unity Q3 2026 filing",
+      "sourceUrl": "https://www.reuters.com/world/silver-lake-pif-have-held-recent-talks-buy-gaming-software-provider-unity-2026-11-05/",
+      "updated": "2026-11-06",
+      "tags": [
+        "Unity",
+        "Electronic Arts",
+        "Silver Lake",
+        "Saudi PIF",
+        "private equity",
+        "game engines",
+        "advertising technology",
+        "developer tools",
+        "industry consolidation",
+        "vertical integration",
+        "mobile games",
+        "PC games",
+        "console games",
+        "platform power",
+        "leveraged buyout"
+      ],
+      "angle": "The investor group that took Electronic Arts private has reportedly discussed buying Unity, potentially placing a major publisher, a foundational game engine, developer tooling and an advertising network under overlapping financial control.",
+      "hook": "The same investors that own EA may now buy the engine underneath thousands of other games.",
+      "thesis": "Gaming consolidation is moving below the level of studios and franchises: control of Unity would give the EA investor group influence over the creation, operation, discovery and monetization infrastructure used by companies it does not own, raising a broader question about who controls the rails of game development.",
+      "outline": [
+        "THE OWNERSHIP MAP — Open with EA, Unity, Scopely and Niantic connected through overlapping Silver Lake and PIF investments.",
+        "WHAT IS REPORTED — Reuters says recent talks considered a roughly $25 billion Unity valuation; no agreement is certain.",
+        "WHY UNITY IS INFRASTRUCTURE — Separate the game engine, cross-platform developer tools and advertising business.",
+        "THE EA PRECEDENT — Explain the investor consortium's completed $55 billion EA take-private without treating the companies as one merged operating business.",
+        "THE FLYWHEEL — Unity says more creators make more games, which creates more demand for discovery through advertising.",
+        "THE VERTICAL QUESTION — Ask what changes when the same capital owns premium content, mobile hits, developer rails and ad distribution.",
+        "THE DEVELOPER RISK — Use Unity's runtime-fee reversal as historical evidence that policy changes at an infrastructure provider can affect thousands of studios.",
+        "THE COUNTERARGUMENT — New ownership could supply capital and stability; overlapping investors do not automatically dictate product policy.",
+        "ENDING — The most consequential gaming acquisition may be the company other developers must build on."
+      ],
+      "notes": "Added November 6 from Reuters' November 5 exclusive and Unity's same-day results. Reuters says Silver Lake and Saudi Arabia's PIF approached Unity in recent weeks and discussed a valuation of about $25 billion before the earnings release. Unity is evaluating options with an investment bank, but no deal is certain, terms may change, and Unity, Silver Lake and PIF did not confirm an agreement. Silver Lake owns about 8% of Unity and has a board representative; handle the conflict-of-interest point carefully and do not infer product decisions. The same investors participated in the $55 billion EA take-private completed in August and also have ownership links to Scopely and Niantic, but this does not mean those companies currently operate as one gaming conglomerate. Unity reported Q3 revenue of $622.1 million, up 32% year over year, and its first GAAP-profitable quarter since the 2020 IPO; its CEO described a flywheel linking game creation with discovery through advertising. This is a reported acquisition-talks story, not a completed deal. Production is fully PC/public-footage based: Unity editor capture, public investor diagrams, official financial tables and original narration. Reuters: https://www.reuters.com/world/silver-lake-pif-have-held-recent-talks-buy-gaming-software-provider-unity-2026-11-05/ Filing mirror: https://sectracker.app/en/U/filing/0001810806-26-000053"
     }
   ]
 };
