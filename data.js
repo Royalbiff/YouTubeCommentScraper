@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-11-06 08:06",
+    "lastSync": "2026-11-07 08:11",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -1694,9 +1694,9 @@ window.TVP_DATA = {
       "status": "Research",
       "priority": "HIGH",
       "score": 98,
-      "source": "CNC / SNJV 2026 Industry Barometer and Le Monde",
+      "source": "CNC / SNJV 2026 Industry Barometer / SAG-AFTRA",
       "sourceUrl": "https://www.cnc.fr/professionnels/etudes-et-rapports/statistiques/le-barometre-de-lindustrie-du-jeu-video--octobre-2026_2681823",
-      "updated": "2026-10-27",
+      "updated": "2026-11-07",
       "tags": [
         "French games industry",
         "studio finance",
@@ -1710,7 +1710,12 @@ window.TVP_DATA = {
         "Don't Nod",
         "Nacon",
         "labor",
-        "market growth"
+        "market growth",
+        "SAG-AFTRA",
+        "professional actors",
+        "vertical slices",
+        "pre-funding pitches",
+        "pitch production"
       ],
       "angle": "France’s €5.8 billion games market and globally celebrated development talent coexist with nearly half of surveyed game companies reporting losses—a compact case study in why strong consumer demand and creative success no longer guarantee sustainable studios.",
       "hook": "France can produce a Game of the Year, support a €5.8 billion games market, and still have nearly half its surveyed game companies operating at a loss.",
@@ -1721,13 +1726,14 @@ window.TVP_DATA = {
         "THE NUMBERS — Explain the €5.8 billion consumer market, the CNC/SNJV survey sample, and the rise to 48% of surveyed companies reporting losses.",
         "WHERE THE MONEY GOES — Separate national consumer spending from revenue captured by French developers and publishers.",
         "THE ONE-GAME COMPANY — Show why fragmented teams working on one multi-year project can be healthy creatively but extremely exposed financially.",
+        "THE PITCH ARMS RACE — SAG-AFTRA's new pre-funding agreement lets underfunded teams use professional actors in private demos and vertical slices, showing how production value is moving earlier in the financing cycle.",
         "THE PUBLISHER RETREAT — Explain how tougher financing and more selective publishers push development and marketing risk back onto studios.",
         "THE COST CURVE — Rising production costs, longer timelines, inflation, interest rates, and discoverability make a successful launch harder to finance and repeat.",
         "THREE DIFFERENT FAILURES — Contrast Ubisoft restructuring, Nacon’s court-supervised difficulties, and Don’t Nod’s safeguard process without pretending they share one cause.",
         "WHO ABSORBS THE RISK — Public funds, tax credits, self-publishing, workers, and founders increasingly carry the gap.",
         "ENDING — A growing audience can sustain a platform or market while the companies making its games become less survivable."
       ],
-      "notes": "Added 2026-10-27 after Paris Games Week highlighted the CNC/SNJV annual barometer. The official survey was conducted April 16–June 26, 2026 among 107 verified game-development companies and published October 15. It says nearly one company in two reported a loss, half the sector consists of businesses below €300,000 revenue, financing access has worsened, and public support is increasingly important. Le Monde’s October 22 analysis reports 48% loss-making (up 13 points from 2024), 61.4% pessimistic, 1,147 active studios and publishers, 2,122 games in production versus 750 releases, and a €5.8B French consumer market in 2025. This is a France-specific case study, not proof that 48% of all global studios lose money. Keep Ubisoft, Nacon, and Don’t Nod as distinct mechanisms. Fully producible with Xbox/PC capture of French-developed games, public Paris Games Week footage, official charts, and original diagrams; Clair Obscur is evidence of creative success, not a claim that one hit should rescue an entire national industry."
+      "notes": "Added 2026-10-27 after Paris Games Week highlighted the CNC/SNJV annual barometer. The official survey was conducted April 16–June 26, 2026 among 107 verified game-development companies and published October 15. It says nearly one company in two reported a loss, half the sector consists of businesses below €300,000 revenue, financing access has worsened, and public support is increasingly important. Le Monde’s October 22 analysis reports 48% loss-making (up 13 points from 2024), 61.4% pessimistic, 1,147 active studios and publishers, 2,122 games in production versus 750 releases, and a €5.8B French consumer market in 2025. This is a France-specific case study, not proof that 48% of all global studios lose money. Keep Ubisoft, Nacon, and Don’t Nod as distinct mechanisms. Fully producible with Xbox/PC capture of French-developed games, public Paris Games Week footage, official charts, and original diagrams; Clair Obscur is evidence of creative success, not a claim that one hit should rescue an entire national industry. November 7 update: SAG-AFTRA's November 5 Pre-Funding Pitch Interactive Media Agreement strengthens the funding-bottleneck chapter. Eligible teams can hire union performers for private demos, vertical slices, trailers, teasers, sizzle reels and playable prototypes used exclusively to solicit production funding. Projects must have no more than 30% of initial funding secured, cannot look complete, and cannot be commercially released or publicly playable; crowdfunding and milestone-funding uses are excluded absent separate arrangements. Treat this as evidence that performance and polish are moving earlier into the pitch stage—not proof that every pitch now requires actors or that the union caused the financing arms race. Official source: https://www.sagaftra.org/sag-aftra-introduces-new-video-game-agreement-pre-funding-pitches"
     },
     {
       "id": "pokemon-unite-library-shutdown",
