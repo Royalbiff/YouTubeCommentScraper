@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-11-07 08:11",
+    "lastSync": "2026-11-08 08:57",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -1210,10 +1210,10 @@ window.TVP_DATA = {
       "category": "Industry / Studio Ownership",
       "status": "Research",
       "priority": "HIGH",
-      "score": 93,
-      "source": "Grasshopper Manufacture / Riot Games reporting",
-      "sourceUrl": "https://www.gematsu.com/2026/09/grasshopper-manufacture-splits-from-netease-games",
-      "updated": "2026-10-28",
+      "score": 96,
+      "source": "Game Studio Unlocked acquisition census / prior studio reporting",
+      "sourceUrl": "https://gamestudiounlocked.substack.com/p/the-tragic-fate-of-game-studios-after-an-acquisition",
+      "updated": "2026-11-08",
       "tags": [
         "Grasshopper Manufacture",
         "NetEase",
@@ -1224,23 +1224,30 @@ window.TVP_DATA = {
         "creative autonomy",
         "Nightdive Studios",
         "Atari",
-        "post-acquisition autonomy"
+        "post-acquisition autonomy",
+        "acquisition census",
+        "studio closures",
+        "ownership periods",
+        "Sebastian Cardoso",
+        "buybacks",
+        "custom methodology"
       ],
-      "angle": "Grasshopper Manufacture becoming independent again and Riot co-founder Marc Merrill admitting his company struggles to integrate acquisitions expose the hidden problem in gaming consolidation: buying talent is easier than preserving the conditions that made it valuable.",
-      "hook": "Publishers spent years buying distinctive studios. Now one escaped its owner—and another publisher admits it never learned how to absorb the teams it bought.",
-      "thesis": "Game-industry consolidation often fails after the contract closes because creative identity, leadership and production culture do not integrate like ordinary corporate assets; survival may depend on preserving autonomy or eventually returning it.",
+      "angle": "A newly expanded census of 392 acquired studios turns the familiar consolidation argument into a sharper question: which ownership models preserve creative institutions, and why do buybacks and spinouts appear unusually resilient?",
+      "hook": "A source-linked census now counts 123 closures among 392 acquired studios—while all 21 documented buybacks or spinouts avoided the study’s “Declined” and “Shuttered” grades. The interesting story is not simply that acquisitions fail; it is what kind of owner a studio gets.",
+      "thesis": "Acquisition is not a single fate: owner incentives, time horizon, leadership continuity and whether a studio feeds an existing franchise machine appear to matter more than the announcement-day promise of stability; autonomy and founder-led exits may preserve the culture buyers struggle to integrate.",
       "outline": [
-        "COLD OPEN — Grasshopper Manufacture is independent again five years after NetEase acquired it.",
-        "WHY BUY A STUDIO — Publishers seek talent, IP, production capacity and entry into new markets.",
-        "THE INTEGRATION PROBLEM — Use Marc Merrill’s admission to explain why ownership does not automatically create collaboration.",
-        "GRASSHOPPER’S EXIT — Trace GungHo, NetEase and the return to independence without inventing undisclosed deal terms.",
-        "THE WIDER PATTERN — Compare selective divestitures and studio exits without treating every acquisition as identical.",
-        "WHAT AUTONOMY BUYS — Creative identity, faster decisions and cultural continuity.",
+        "COLD OPEN — Put the acquisition press release beside the new base rate: 123 closures in a 392-studio census.",
+        "HOW THE CENSUS WORKS — Separate 392 studios from 414 ownership periods, 362 game developers from 30 support/co-dev shops, and explain the author's custom grades.",
+        "THE BUYER MATTERS — Compare franchise factories, debt-fueled roll-ups and owners that acquire long-time partners without turning small samples into universal rankings.",
+        "WHY INTEGRATION FAILS — Use Riot co-founder Marc Merrill’s admission to show why ownership does not automatically create collaboration.",
+        "THE ESCAPE HATCH — The census records 21 buybacks or spinouts and none graded Declined or Shuttered as of late October; test that pattern against Grasshopper and other exits.",
+        "THE POSITIVE CASE — Nightdive says Atari removed administrative work while leaving its remaster business intact; present this as attributable testimony, not a verdict on Atari.",
+        "WHAT AUTONOMY BUYS — Creative identity, leadership continuity and decision speed.",
         "WHAT INDEPENDENCE COSTS — Financing, publishing reach, marketing and risk return to the studio.",
-        "THE TEST — Ask whether the studio can keep its identity while funding larger games.",
-        "ENDING — The real measure of an acquisition is not what a publisher buys, but what remains recognizable afterward."
+        "THE DUE-DILIGENCE TEST — Ask who controls leadership, what the cash clock demands and whether the buyer needs a franchise factory.",
+        "ENDING — The real measure of an acquisition is not what a publisher buys, but what remains recognizable years later."
       ],
-      "notes": "Added October 2 after Grasshopper Manufacture announced its split from NetEase and return to independent status. NetEase acquired the studio in 2021. Separately, Riot co-founder Marc Merrill said Riot has not been very good at M&A integration, citing Radiant Entertainment as an example. Use the pairing as a structural essay about post-acquisition culture, not as proof the two situations share causes. Grasshopper’s exact exit terms are not public in the cited reporting. Production can use public announcements, archived trailers, studio timelines and original ownership diagrams; no PlayStation capture is required. Supporting Riot report: https://wnhub.io/news/other/item-52251 October 28 update: a Game Developer interview with Nightdive CEO Stephen Kick adds a positive post-acquisition counterexample. Kick says Atari has left Nightdive’s remaster business intact while taking payroll, tax, and other administrative work off the studio; he contrasts this with buyers that redirect acquired teams away from their original strengths. Treat this as attributable testimony from a subsidiary CEO—not independent proof that Atari’s whole acquisition strategy is successful. Source: https://www.gamedeveloper.com/business/night-dive-studios-ceo-says-atari-is-demonstrating-right-way-to-do-acquisitions"
+      "notes": "Added October 2 after Grasshopper Manufacture announced its split from NetEase and return to independent status. NetEase acquired the studio in 2021. Separately, Riot co-founder Marc Merrill said Riot has not been very good at M&A integration, citing Radiant Entertainment as an example. Use the pairing as a structural essay about post-acquisition culture, not as proof the two situations share causes. Grasshopper’s exact exit terms are not public in the cited reporting. Production can use public announcements, archived trailers, studio timelines and original ownership diagrams; no PlayStation capture is required. Supporting Riot report: https://wnhub.io/news/other/item-52251 October 28 update: a Game Developer interview with Nightdive CEO Stephen Kick adds a positive post-acquisition counterexample. Kick says Atari has left Nightdive’s remaster business intact while taking payroll, tax, and other administrative work off the studio; he contrasts this with buyers that redirect acquired teams away from their original strengths. Treat this as attributable testimony from a subsidiary CEO—not independent proof that Atari’s whole acquisition strategy is successful. Source: https://www.gamedeveloper.com/business/night-dive-studios-ceo-says-atari-is-demonstrating-right-way-to-do-acquisitions November 8 update: Sebastian Cardoso published a source-linked acquisition census on November 2 and expanded it on November 5 after cross-checking buyers’ own studio lists. The live version counts 392 studios, including 362 game developers and 30 support/co-development shops; 123 studios closed, 60.2% of acquired developers were graded Declined or Shuttered, and 28.5% were graded healthy in both output and institutional terms. It also separates 414 ownership periods so studios that changed hands are attributed to the relevant owner. The most useful counter-pattern for this idea is 21 buybacks or spinouts with zero periods graded Declined or Shuttered as of late October. Method caveats must be on-screen: this is an independent, self-published census rather than peer-reviewed research; every row has sources and confidence flags, but the Declined/Healthy classifications use the author's judgment; late additions moved the count from 303 to 392; current ownership periods under four years have no negative grades, so short clean records are not comparable with decades-long ones. Do not repeat buyer league tables without showing denominators and ownership duration. Primary: https://gamestudiounlocked.substack.com/p/the-tragic-fate-of-game-studios-after-an-acquisition"
     },
     {
       "id": "gaming-platform-safety-gap",
