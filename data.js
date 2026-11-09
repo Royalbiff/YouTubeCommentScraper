@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-11-08 08:57",
+    "lastSync": "2026-11-09 08:27",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -1700,10 +1700,10 @@ window.TVP_DATA = {
       "category": "Industry / Studio Economics",
       "status": "Research",
       "priority": "HIGH",
-      "score": 98,
-      "source": "CNC / SNJV 2026 Industry Barometer / SAG-AFTRA",
+      "score": 100,
+      "source": "CNC / SNJV / ASGC layoffs tracker / VGC / SAG-AFTRA",
       "sourceUrl": "https://www.cnc.fr/professionnels/etudes-et-rapports/statistiques/le-barometre-de-lindustrie-du-jeu-video--octobre-2026_2681823",
-      "updated": "2026-11-07",
+      "updated": "2026-11-09",
       "tags": [
         "French games industry",
         "studio finance",
@@ -1722,14 +1722,23 @@ window.TVP_DATA = {
         "professional actors",
         "vertical slices",
         "pre-funding pitches",
-        "pitch production"
+        "pitch production",
+        "Bit Reactor",
+        "Star Wars Zero Company",
+        "ASGC",
+        "Amir Satvat",
+        "layoff tracker",
+        "commercial success",
+        "furloughs",
+        "studio survival"
       ],
-      "angle": "France’s €5.8 billion games market and globally celebrated development talent coexist with nearly half of surveyed game companies reporting losses—a compact case study in why strong consumer demand and creative success no longer guarantee sustainable studios.",
-      "hook": "France can produce a Game of the Year, support a €5.8 billion games market, and still have nearly half its surveyed game companies operating at a loss.",
-      "thesis": "The games business has separated market growth from studio security: longer and costlier production, scarce financing, risk-averse publishers, crowded discovery, and one-project company structures shift more risk onto developers even while players keep spending.",
+      "angle": "France’s loss-making studios, the updated global layoff tracker, and Bit Reactor cutting staff after a critically well-received million-selling game form one structural story: consumer demand and even visible success no longer translate reliably into continuous studio payroll.",
+      "hook": "A Star Wars game reportedly sold a million copies and earned strong reviews. Its developer still went from mass furloughs to another round of layoffs.",
+      "thesis": "The games business has separated market growth and project success from studio security: longer production cycles, milestone financing, publisher leverage, crowded discovery and one-project company structures can leave teams insolvent or disposable even when players keep spending and the finished game performs.",
       "outline": [
         "THE PARADOX — Open at Paris Games Week: a crowded celebration above an industry describing itself as financially fragile.",
         "THE SUCCESS STORY — Use Clair Obscur and France’s international reputation to establish that talent and critical acclaim are not the missing ingredients.",
+        "THE HIT THAT DIDN’T SAVE THE TEAM — Bit Reactor’s furloughs and later layoffs after Star Wars Zero Company sold one million copies show why unit sales alone do not reveal the studio’s funding obligations, revenue share, burn rate or next-project runway.",
         "THE NUMBERS — Explain the €5.8 billion consumer market, the CNC/SNJV survey sample, and the rise to 48% of surveyed companies reporting losses.",
         "WHERE THE MONEY GOES — Separate national consumer spending from revenue captured by French developers and publishers.",
         "THE ONE-GAME COMPANY — Show why fragmented teams working on one multi-year project can be healthy creatively but extremely exposed financially.",
@@ -1740,7 +1749,7 @@ window.TVP_DATA = {
         "WHO ABSORBS THE RISK — Public funds, tax credits, self-publishing, workers, and founders increasingly carry the gap.",
         "ENDING — A growing audience can sustain a platform or market while the companies making its games become less survivable."
       ],
-      "notes": "Added 2026-10-27 after Paris Games Week highlighted the CNC/SNJV annual barometer. The official survey was conducted April 16–June 26, 2026 among 107 verified game-development companies and published October 15. It says nearly one company in two reported a loss, half the sector consists of businesses below €300,000 revenue, financing access has worsened, and public support is increasingly important. Le Monde’s October 22 analysis reports 48% loss-making (up 13 points from 2024), 61.4% pessimistic, 1,147 active studios and publishers, 2,122 games in production versus 750 releases, and a €5.8B French consumer market in 2025. This is a France-specific case study, not proof that 48% of all global studios lose money. Keep Ubisoft, Nacon, and Don’t Nod as distinct mechanisms. Fully producible with Xbox/PC capture of French-developed games, public Paris Games Week footage, official charts, and original diagrams; Clair Obscur is evidence of creative success, not a claim that one hit should rescue an entire national industry. November 7 update: SAG-AFTRA's November 5 Pre-Funding Pitch Interactive Media Agreement strengthens the funding-bottleneck chapter. Eligible teams can hire union performers for private demos, vertical slices, trailers, teasers, sizzle reels and playable prototypes used exclusively to solicit production funding. Projects must have no more than 30% of initial funding secured, cannot look complete, and cannot be commercially released or publicly playable; crowdfunding and milestone-funding uses are excluded absent separate arrangements. Treat this as evidence that performance and polish are moving earlier into the pitch stage—not proof that every pitch now requires actors or that the union caused the financing arms race. Official source: https://www.sagaftra.org/sag-aftra-introduces-new-video-game-agreement-pre-funding-pitches"
+      "notes": "Added 2026-10-27 after Paris Games Week highlighted the CNC/SNJV annual barometer. The official survey was conducted April 16–June 26, 2026 among 107 verified game-development companies and published October 15. It says nearly one company in two reported a loss, half the sector consists of businesses below €300,000 revenue, financing access has worsened, and public support is increasingly important. Le Monde’s October 22 analysis reports 48% loss-making (up 13 points from 2024), 61.4% pessimistic, 1,147 active studios and publishers, 2,122 games in production versus 750 releases, and a €5.8B French consumer market in 2025. This is a France-specific case study, not proof that 48% of all global studios lose money. Keep Ubisoft, Nacon, and Don’t Nod as distinct mechanisms. Fully producible with Xbox/PC capture of French-developed games, public Paris Games Week footage, official charts, and original diagrams; Clair Obscur is evidence of creative success, not a claim that one hit should rescue an entire national industry. November 7 update: SAG-AFTRA's November 5 Pre-Funding Pitch Interactive Media Agreement strengthens the funding-bottleneck chapter. Eligible teams can hire union performers for private demos, vertical slices, trailers, teasers, sizzle reels and playable prototypes used exclusively to solicit production funding. Projects must have no more than 30% of initial funding secured, cannot look complete, and cannot be commercially released or publicly playable; crowdfunding and milestone-funding uses are excluded absent separate arrangements. Treat this as evidence that performance and polish are moving earlier into the pitch stage—not proof that every pitch now requires actors or that the union caused the financing arms race. Official source: https://www.sagaftra.org/sag-aftra-introduces-new-video-game-agreement-pre-funding-pitches November 9 update: Bit Reactor adds a concrete, unusually strong bridge from the French case study to the global studio-economics problem. VGC reported on November 9 that several developers said they had been laid off after a three-month furlough; the total is unknown, and it is unclear how many affected workers had previously returned to payroll. The studio had reportedly furloughed roughly 80% of staff before Star Wars Zero Company launched in August, then brought some people back after the game sold one million units. Use the sequence to ask why a successful launch may not repair a project-financed studio’s cash position; do not claim the game lost money or that sales caused the cuts. Source: https://www.videogameschronicle.com/news/star-wars-zero-company-studio-bit-reactor-is-laying-off-staff-a-month-after-it-started-bringing-back-furloughed-devs/ The ASGC tracker’s November 5 snapshot separately counts 11,857 confirmed 2026 job losses and projects 13,807 for the full year, versus 9,197 tracked in 2025. Present 11,857 as a tracked actual and 13,807 as a forecast, not a fact; the tracker says historical actuals can be revised and currently assumes Microsoft’s remaining 1,600 announced cuts land in calendar 2026 despite uncertain timing. Source: https://layoffs.asgc.gg/ GDC’s survey of more than 2,300 professionals provides a different evidence tier: 28% worldwide and 33% in the US self-reported being laid off in the prior two years. Source: https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/"
     },
     {
       "id": "pokemon-unite-library-shutdown",
