@@ -3,7 +3,7 @@ window.TVP_DATA = {
     "channel": "THE VIRTUAL POST",
     "feed": "Virtual Post Trend Brief",
     "watchFeed": "Virtual Post Watch Radar",
-    "lastSync": "2026-11-13 08:08",
+    "lastSync": "2026-11-14 08:23",
     "timezone": "America/Bogota",
     "taskManagerUrl": "https://chatgpt.com/schedules",
     "githubPath": "Royalbiff/YouTubeCommentScraper/data.js"
@@ -1878,9 +1878,9 @@ window.TVP_DATA = {
       "status": "Research",
       "priority": "HIGH",
       "score": 99,
-      "source": "Alphabet / Nielsen / YouTube",
+      "source": "Alphabet / Nielsen / YouTube / Hatchet",
       "sourceUrl": "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx",
-      "updated": "2026-11-04",
+      "updated": "2026-11-14",
       "tags": [
         "YouTube",
         "gaming essays",
@@ -1897,7 +1897,12 @@ window.TVP_DATA = {
         "Nielsen",
         "Alphabet earnings",
         "Xbox",
-        "PC"
+        "PC",
+        "TikTok Live",
+        "mobile viewing",
+        "live streaming",
+        "Roblox",
+        "platform bifurcation"
       ],
       "angle": "Alphabet says living-room viewing generated over one-third of YouTube ad revenue in Q3 2026, while Nielsen measured YouTube at a record 15.8% of US TV time. Gaming essays are no longer competing only inside a phone feed; they are increasingly packaged, watched and monetized like television.",
       "hook": "More than one out of every three YouTube ad dollars now comes from the living room. The gaming essay is quietly becoming a television format.",
@@ -1905,6 +1910,7 @@ window.TVP_DATA = {
       "outline": [
         "THE NUMBER — Open with living-room viewing generating over one-third of YouTube ad revenue in Q3 2026.",
         "THE SCREEN SHIFT — Nielsen measured YouTube at a record 15.8% of US television time in August.",
+        "THE OTHER SCREEN — Contrast YouTube's living-room expansion with TikTok Live's mobile-first gaming growth; the audience is bifurcating rather than moving to one universal screen.",
         "WHAT TV CHANGES — Compare remote-controlled browsing, shared screens and longer viewing sessions with phone-feed behavior.",
         "WHY GAMING FITS — Long histories, simulations, challenge stories and cultural essays already support documentary-scale viewing.",
         "THE FORMAT SIGNAL — Use recent multi-hour Minecraft events and outlier gaming documentaries as examples, not proof of device-level causation.",
@@ -1913,7 +1919,7 @@ window.TVP_DATA = {
         "THE MONEY — Separate Alphabet's platform ad-revenue mix from private creator RPM and sponsorship income.",
         "ENDING — The winning long-form gaming channel may look less like a feed and more like a small television network."
       ],
-      "notes": "Added November 4 from primary Alphabet, Nielsen and YouTube evidence. Alphabet's October 28 Q3 earnings call says living-room viewing accounted for over one-third of total YouTube advertising revenue; YouTube ad revenue was $11.2 billion, up 9% year over year. This is platform ad-revenue mix, not the share of any individual creator's revenue or an RPM estimate. Nielsen's October 22 Gauge report says YouTube reached a record 15.8% of US television usage in August 2026, with monthly viewing up 6%; that measures television sets in the US, not all global YouTube viewing. YouTube says more than half of its top 100 creators now have TV as their most-watched interface, TV sessions are longer than on other devices, and creators should use clean high-resolution thumbnails and episodic formats. A November 3 OutlierKit sample found 64 of 78 listed outlier videos across selected searches exceeded 20 minutes, but the searches were length-biased and the index had no device data; use it only as a tentative format signal. Production can rely on public reports, interface mockups, PC/Xbox footage and original diagrams. Sources: https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx ; https://www.nielsen.com/news-center/2026/tv-viewing-cools-off-in-nielsens-august-gauge-reports-as-sports-take-a-breather-and-school-resumes/ ; https://blog.youtube/news-and-events/made-on-youtube-creators-shorts-series-tv-features/ ; https://blog.youtube/creator-and-artist-stories/tv-tips/ ; https://outlierkit.com/resources/youtube-tv-viewers-creator-strategy/"
+      "notes": "Added November 4 from primary Alphabet, Nielsen and YouTube evidence. Alphabet's October 28 Q3 earnings call says living-room viewing accounted for over one-third of total YouTube advertising revenue; YouTube ad revenue was $11.2 billion, up 9% year over year. This is platform ad-revenue mix, not the share of any individual creator's revenue or an RPM estimate. Nielsen's October 22 Gauge report says YouTube reached a record 15.8% of US television usage in August 2026, with monthly viewing up 6%; that measures television sets in the US, not all global YouTube viewing. YouTube says more than half of its top 100 creators now have TV as their most-watched interface, TV sessions are longer than on other devices, and creators should use clean high-resolution thumbnails and episodic formats. A November 3 OutlierKit sample found 64 of 78 listed outlier videos across selected searches exceeded 20 minutes, but the searches were length-biased and the index had no device data; use it only as a tentative format signal. Production can rely on public reports, interface mockups, PC/Xbox footage and original diagrams. Sources: https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx ; https://www.nielsen.com/news-center/2026/tv-viewing-cools-off-in-nielsens-august-gauge-reports-as-sports-take-a-breather-and-school-resumes/ ; https://blog.youtube/news-and-events/made-on-youtube-creators-shorts-series-tv-features/ ; https://blog.youtube/creator-and-artist-stories/tv-tips/ ; https://outlierkit.com/resources/youtube-tv-viewers-creator-strategy/ November 14 update: Hatchet's November 13 State of TikTok Live for Gaming report estimates 2.5 billion TikTok Live gaming hours watched in H1 2026, up 96% year over year and equal to a 14% share of tracked gaming livestream viewership. It also estimates an average 1.4 million creators streamed daily, with Roblox at 613 million hours watched. A related Streamlabs/Hatchet Q2 report says YouTube Gaming watch time fell 18.9% year over year to 1.79 billion hours while broader YouTube Live rose 18% to 12.97 billion, showing why 'YouTube' and 'YouTube Gaming' must not be treated as the same measurement. This strengthens the essay through contrast: gaming video is bifurcating between mobile, discovery-driven live viewing and television-like, destination long-form, not simply migrating from one platform to another. Treat all Hatchet numbers as the analytics company's own cross-platform estimates; the public landing page does not expose enough methodology to treat them as audited platform totals. Do not recommend abandoning YouTube or copying TikTok Live formats. Sources: https://www.hatchet.gg/resources/guides/tiktok-live-for-gaming-h1-2026/ ; https://streamlabs.com/content-hub/post/streamlabs-and-hatchet-q2-2026-live-streaming-report"
     },
     {
       "id": "unity-ea-same-investors",
